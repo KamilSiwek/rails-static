@@ -8,12 +8,17 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
+gem 'faker',          '1.7.3'
+#pagination
+gem 'will_paginate',           '3.1.6'
+gem 'bootstrap-will_paginate', '1.0.0'
 #jquery
 gem 'jquery-rails'
 # Bootstrap
 gem 'bootstrap-sass', '3.3.7'
 # Use sqlite3 as the database for Active Record
 gem 'rails-controller-testing'
+
 #Pasword
 gem 'bcrypt', '~> 3.1.11'
 gem 'sqlite3'
